@@ -40,7 +40,15 @@
 <input type="text" class="form-control shadow-md shadow-sky-300/100 rounded-md text-slate-300 focus:text-slate-300 focus:bg-gray-600" id="fakultas" oninput="txtFakultas=this.value" placeholder="Mapel : IPS">
 </div></div>
 <div class="form-group pb-1"><label for="content">Teks :</label>
-
-
-
-<textarea class="form-control shadow-md shadow-sky-300/100 rounded-md text-slate-300 focus:text-slate-300 focus:bg-gray-600" id="content" rows="10" oninput="txtContent=this.value" placeholder="Masukan teks"></textarea></div><div class="form-group"><button class="shadow-md font-bold shadow-sky-300/100 bg-green-500 px-2 py-1 text-white rounded-lg font-sans mr-2" onclick="downloadCanvas(document.getElementById('defaultCanvas0'), 'awas-ketauan.png')">Unduh Hasil </button><button class="shadow-md font-bold shadow-sky-300/100 bg-red-500 px-2 py-1 text-white rounded-lg font-sans float-center" type="button" onclick="javascript:eraseText();">Hapus Semua </button></div></div><div class="form-group col-md-6"><main class="paper-container scale-50 -mt-52 -mb-80 mr-64 md:scale-100 md:mt-0 md:mb-0 md:mr-0"></main></div></div><div class="fixed top-0 text-center font-mono bg-gray-800 text-slate-300 py-0 text-sm w-full">© 2022 <a class="text-green-500" href="http://instagram.com/zaadevofc" target="_blank" rel="noopener noreferrer">ZaaDev</a> All Rights Reserved. </div><%- include('layouts/script'); %></body></html>
+<textarea class="form-control shadow-md shadow-sky-300/100 rounded-md text-slate-300 focus:text-slate-300 focus:bg-gray-600" id="content" rows="10" oninput="txtContent=this.value" placeholder="Masukan teks">
+</textarea>
+</div>
+<div class="form-group">
+<button class="shadow-md font-bold shadow-sky-300/100 bg-green-500 px-2 py-1 text-white rounded-lg font-sans mr-2" onclick="downloadCanvas(document.getElementById('defaultCanvas0'), 'awas-ketauan.png')">Unduh Hasil </button>
+<button class="shadow-md font-bold shadow-sky-300/100 bg-red-500 px-2 py-1 text-white rounded-lg font-sans float-center" type="button" onclick="javascript:eraseText();">Hapus Semua </button>
+</div></div>
+<div class="form-group col-md-6"><main class="paper-container scale-50 -mt-52 -mb-80 mr-64 md:scale-100 md:mt-0 md:mb-0 md:mr-0"></main>
+</div></div>
+<div class="fixed top-0 text-center font-mono bg-gray-800 text-slate-300 py-0 text-sm w-full">© 2022 <a class="text-green-500" href="http://instagram.com/auliarahman_ckep" target="_blank" rel="noopener noreferrer">Nulis Online</a> All Rights Reserved. </div><%- include('layouts/script'); %>
+</body>
+</html>
